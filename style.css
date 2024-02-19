@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8ff; /* Lavender background */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #FF69B4; /* Hot pink heading color */
+  }
+  
+  #posTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  
+  #posTable th, #posTable td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Light gray border */
+    text-align: center;
+  }
+  
+  #posTable th {
+    background-color: #FFD700; /* Gold background for table header */
+    color: #333; /* Dark text color */
+  }
+  
+  #posTable tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+  }
+  
+  #posTable tr:hover {
+    background-color: #ffc0cb; /* Light pink background on hover */
+  }
+  
+  button {
+    background-color: #FF69B4; /* Hot pink button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: #FF1493; /* Darker pink background on hover */
+  }
+  
+  #totalAmount, #balance {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  input[type="number"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Light gray border */
+  }
+  
+  input[type="number"]:focus {
+    outline: none;
+    border-color: #FF69B4; /* Hot pink border color on focus */
+  }
+  #totalAmount {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4CAF50; /* Green color */
+    margin-top: 10px; /* Add some space between Total Amount and the table */
+    float: right; /* Align Total Amount to the right */
+    margin-right: 15px;
+  }
+  
+  #balance {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4CAF50; /* Red color */
+    margin-top: 10px; /* Add some space between Balance and the table */
+    float: right; /* Align Total Amount to the right */
+    margin-right: 15px;
+  }
+  h1 {
+    font-family: 'Arial', sans-serif; /* Use a clean and widely supported font */
+    font-size: 36px; /* Increase font size for emphasis */
+    font-weight: bold; /* Make the text bold for emphasis */
+    color: #333; /* Set a dark color for readability */
+    text-align: center; /* Center align the text */
+    margin-bottom: 20px; /* Add some space below the heading */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); /* Add a subtle text shadow for depth */
+  }
+  
+  h1::first-letter {
+    font-size: 150%; /* Increase the size of the first letter for emphasis */
+  }
+  
+  h1:hover {
+    color: #ff7f50; /* Change color on hover for interactivity */
+    transition: color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  

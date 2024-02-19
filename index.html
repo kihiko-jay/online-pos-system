@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online POS System</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Online POS System</h1>
+<table id="posTable">
+  <tr>
+    <th>Position</th>
+    <th>Item BarcCode</Code></th>
+    <th>Item Description</th>
+    <th>Price</th>
+    <th>Quantity</th>
+    <th>Total</th>
+  </tr>
+</table>
+<button onclick="addItem()">Add Item</button>
+<button onclick="calculateTotal()">Calculate Total</button>
+<div id="totalAmount"></div>
+<div>
+  <label for="cashReceived">Cash Received:</label>
+  <input type="number" id="cashReceived">
+  <button onclick="calculateBalance()">Calculate Balance</button>
+</div>
+<div id="balance"></div>
+<script src="script.js"></script>
+</body>
+</html>
