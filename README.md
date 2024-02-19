@@ -13,6 +13,9 @@ File Structure
 index.html: HTML file for the webpage structure
 style.css: CSS file for visual styling
 script.js: JavaScript file for functionality and interactivity
+Testing
+Item barcodes have been preset from 001 to 020 for testing purposes.
+
 How to Contribute
 Contributions are welcome! Feel free to fork the repository and submit pull requests with any improvements or fixes.
 
